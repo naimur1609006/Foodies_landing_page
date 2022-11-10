@@ -33,7 +33,7 @@
 
     .hero{
         flex-direction: column;
-        gap:0px
+        gap:20px;
     }
     
     .hero_text{
