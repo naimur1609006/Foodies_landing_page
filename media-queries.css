@@ -1,0 +1,56 @@
+@media (max-width:1042px){
+    .nav-items ul{
+        display: block;
+    }
+
+    .logo img{
+        width: 60%;
+    }
+
+    .nav-items ul li{
+        display: block;
+    }
+
+    #bar-icon{
+        display: block;
+    }
+
+    .nav-items{
+        position: absolute;
+        top: 100px;
+        text-align: center;
+        display: none;
+    }
+
+    .nav-items ul li a{
+        display: block;
+        margin-top: 10px;
+    }
+
+    .nav-items.active{
+        display: block;
+    }
+
+    .hero{
+        flex-direction: column;
+        gap:0px
+    }
+    
+    .hero_text{
+        max-width: 300px;
+        text-align: center;
+    }
+    
+    .hero_text h2{
+        font-size: 2rem;
+    }
+    
+    .hero_text h5{
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    
+    .hero_image img{
+        width: 100%;
+    }
+}
